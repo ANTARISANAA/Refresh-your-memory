@@ -1,4 +1,4 @@
-## La methodologie agile 
+## La méthodologie agile 
 
 ### **Agile:** 
 C'est la facilité / la rapidité dans l'exécution des mouvements.
