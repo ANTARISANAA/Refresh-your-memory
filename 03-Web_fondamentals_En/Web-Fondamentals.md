@@ -24,7 +24,7 @@
  
  ### **Methods**
  + **Get :** we use it when we wont to fitch data from the server.
- + **Past :** We use it when we're posting data.
+ + **Post :** We use it when we're posting data.
  + **Put :** Update data that we have already on the server.
  + **Delete :** Delete data from the server.
  ### **Request content **
