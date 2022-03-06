@@ -2,12 +2,12 @@
 
 ### **Definition**
  It's a version control system (vcs) for taking changes in computer files.
-It help people to work on the same  project whithout having to be on the same network.
+ It help people to work on the same  project whithout having to be on the same network.
 
 ### **Objectifs:**
-+ fast
-+ siple 
-+ distribute
++ Fast
++ Simple 
++ Distribute
 
 ### **Basic Commands:**
  **$git init :** Initialize Git repository.
@@ -24,20 +24,20 @@ It help people to work on the same  project whithout having to be on the same ne
 + We can add Email and user name by executing the commands :
   + $git conf --global user.name 'name.'
   + $git conf --global user.email 'email'
- Then we can start to use to add our files and to use get commit
+ Then we can start  to add our files and to use get commit
  to commit changes.
 + We can use the commands :
-  + $git add *.extention to add all files.extention to our    repository 
+  + **$git add *.extention** to add all files.extention to our  repository 
     (ex:$git add *.html to add all files.html )
-  + $git add. to add all files to our repository.
+  + **$git add.** to add all files to our repository.
 
 
 ### **.Git ignore:**
  It use to tell Git which files and directories to ignore when you make a commit.
 
 ### **Brunches:**
- + To create:  $git brach 'login'.
- + And if we wont to access to our branche  $git checkout 'login'.
+ + To create a brunche:  **$git brach 'login'**.
+ + And if we wont to access to our branche  **$git checkout 'login'**.
 
 ## NB:
  If we add a new file (exemple: file.html) to our brance then we switsh to master , the 'file.html' id going to be deleted , to resolve this probleme we have to merge our 'file.html' (in master) by :  **$git merge file**.
