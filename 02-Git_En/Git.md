@@ -1,8 +1,8 @@
 ## Git 
 
 ### **Definition**
- It's a version control system (vcs) for taking changes in computer files.
- It help people to work on the same  project whithout having to be on the same network.
+    It's a version control system (vcs) for taking changes in computer files.
+    It help people to work on the same  project whithout having to be on the same network.
 
 ### **Objectifs:**
 + Fast
@@ -40,4 +40,5 @@
  + And if we wont to access to our branche  **$git checkout 'login'**.
 
 ## NB:
- If we add a new file (exemple: file.html) to our brance then we switsh to master , the 'file.html' id going to be deleted , to resolve this probleme we have to merge our 'file.html' (in master) by :  **$git merge file**.
+       If we add a new file (exemple: file.html) to our brance then we switsh to master , the 'file.html' id going to be deleted, 
+       to resolve this probleme we have to merge our 'file.html' (in master) by : **$git merge file**.
