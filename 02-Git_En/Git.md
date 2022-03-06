@@ -10,13 +10,13 @@
 + Distribute
 
 ### **Basic Commands:**
- **$git init :** Initialize Git repository.
- **$git add <file name>** : Add files to index.
- **$git status :** See what we have in the working area.
- **$git commit :** Commit changes .
- **$git push :** Push the remote repository.
- **$git pull :** Pull latest from ramote repository .
- **$git clone :** Clone repository to a new repository.
+ + **$git init :** Initialize Git repository.
+ + **$git add <file name>** : Add files to index.
+ + **$git status :** See what we have in the working area.
+ + **$git commit :** Commit changes .
+ + **$git push :** Push the remote repository.
+ + **$git pull :** Pull latest from ramote repository .
+ + **$git clone :** Clone repository to a new repository.
 
 ### **How to start our First pproject in Github :**
 + Create a new folder and create a new file inside it .
