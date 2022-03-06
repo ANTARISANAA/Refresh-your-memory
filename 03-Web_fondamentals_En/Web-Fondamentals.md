@@ -2,7 +2,7 @@
          Web is computer network consisting of a collection of internet sites that offer text and graphics and sound and 
         animation resources through the hypertext transfer protocol.
         
- ### **So how the Web work ?**
+ ### **How the Web work ?**
          When a user is searching for a website , he enter a URL in his browser, the browser send a request to DNS server, who
          translate domane name to an IP adresse, that going to be search in the server who will send the response to the user by
          showing the website interface .
