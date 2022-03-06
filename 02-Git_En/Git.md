@@ -1,15 +1,15 @@
 ## Git 
 
-**Definition**
+### **Definition**
  it's a version control system (vcs) for taking changes in computer files.
 it help people to work on the same  project whithout having to be on the same network.
 
-**Objectifs:**
+### **Objectifs:**
 fast
 siple 
 distribute
 
-**Basic Commands:**
+### **Basic Commands:**
 **$git init :** Initialize Git repository.
 **$git add <file name>** : Add files to index.
 **$git status :** See what we have in the working area.
