@@ -1,4 +1,4 @@
-##Git 
+## Git 
 
 **Definition**
  it's a version control system (vcs) for taking changes in computer files.
@@ -10,15 +10,15 @@ siple
 distribute
 
 **Basic Commands:**
-$git init : Initialize Git repository.
-$git add <file name> : Add files to index.
-$git status : See what we have in the working area.
-$git commit : Commit changes .
-$git push : Push the remote repository.
-$git pull : Pull latest from ramote repository .
-$git clone : Clone repository to a new repository.
+**$git init :** Initialize Git repository.
+**$git add <file name>** : Add files to index.
+**$git status :** See what we have in the working area.
+**$git commit :** Commit changes .
+**$git push :** Push the remote repository.
+**$git pull :** Pull latest from ramote repository .
+**$git clone :** Clone repository to a new repository.
 
-How to start our First pproject in Github :
+**How to start our First pproject in Github :**
 -Create a new folder and create a new file inside it .
 -Change the view option to see .git file.
 -We can add Email and user name by executing the commands :
