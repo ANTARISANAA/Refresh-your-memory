@@ -1,18 +1,30 @@
 ## Git 
 
-### **Definition**
+### **What is Git ?**
     It's a version control system (vcs) for taking changes in computer files.
-    It help people to work on the same  project whithout having to be on the same network.
+    It lets you and others work together on projects in a locale repository and we publish to others from anywhere.
 
 ### **Objectifs:**
-+ Fast
-+ Simple 
-+ Distribute
-
++ To be Fast
++ To be Simple 
++ To be Distribute
+### **Definitions**
++ **Repository :**
+    This is the place where Git will store all its objects: versions, branches, tags...
++ **Working copy :**
+    Contains the current modifications (this is the current directory).
++ **Staging area (or index) :**
+    List of modifications made in the working copy that we want to include in the next commit.
++ **Commit :**
+    consistent set of changes.
+### **Commit functionality :**
+   + Compile.
+   + Function.
+   + Mean.
 ### **Basic Commands:**
 #### **Initialize Git repository:**
     $git init 
-#### **Add files to index:**/
+#### **Add files to index:**
      $git add <file name>
  #### **See what we have in the working area:**
      $git status
@@ -24,20 +36,16 @@
     $git pull
  ####  **Clone repository to a new repository:**
     $git clone
-
-### **How to start our First project in Github :**
-+ Create a new folder and create a new file inside it .
-+ Change the view option to see .git file.
-#### We can add Email and user name by executing the commands :
-    $git conf --global user.name 'name.'
-    $git conf --global user.email 'email'
- Then we can start  to add our files and to use get commit
- to commit changes.
-+ We can use the commands :
-  + **$git add *.extention** to add all files.extention to our  repository 
+ #### **To add all files.extention to our  repository:**
+    $git add *.extention
     (ex:$git add *.html to add all files.html )
-  + **$git add.** to add all files to our repository.
-
+ #### **To add all files to our repository:**
+    $git add.
+ ### **First steps**
+ #### Configure user name :
+    $git Config --global user.name "my name" 
+#### configure user email : 
+    $git Config --global user.email "my email"
 
 ### **.Git ignore file :**
  It use to tell Git which files and directories to ignore when you make a commit.
