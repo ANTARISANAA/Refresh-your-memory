@@ -42,10 +42,10 @@
 ### **.Git ignore file :**
  It use to tell Git which files and directories to ignore when you make a commit.
 
-### **Brunches:**
- #### To create a brunche: 
-     $git brunch 'login'.
- #### And if we wont to access to our branche 
+### **Branches:**
+ #### To create a branch: 
+     $git branch 'login'.
+ #### And if we wont to access to our branch
     $git checkout 'login'.
 
 ## NB:
