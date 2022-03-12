@@ -1,12 +1,14 @@
 
-## Git
+# **Git**
 
 ### **Definition**
+
 ```
     It's a version control system (vcs) for taking changes in computer files.
     Whithout having to be on the same network, a team can work and share projects using this amazing .
     Great, it realy helpfull, so , in this part of our summarize , we're going to discover how to get start with this magic world. 
 ```
+
 ### **Objectifs:**
 
 + Fast
@@ -131,6 +133,33 @@ To add all files.extention to our  repository.
 To add all files to our repository.
 
 ### **.Git ignore:**
+
  ```
  It use to tell Git which files and directories to ignore when you make a commit.
 ```
+
+# **Git Merge**
+
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+## **How it works**
+
+Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.
+
+For exemple we have this branch that is based off the main branch and we wont to merge it to our main  (master) branch.
+
+Before merge :
+
+![Resume](/Images/before-merge.PNG)
+
+After merge :
+
+![Resume](/Images/after-merge.PNG)
+
+### **Steps before merge**
+
++ Confirm the receiving branch.
+(by executing *git satus* Execute git status to ensure that HEAD is pointing to the correct merge-receiving branch. If needed, execute git checkout to switch to the receiving branch. In our case we will execute git checkout main.)
+
++ Fetch latest remote commits.
++ Then we can merge Merging.
