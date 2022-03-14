@@ -163,3 +163,36 @@ After merge :
 
 + Fetch latest remote commits.
 + Then we can merge Merging.
+
+# **Git flow**
+
+it's one of the most popular Git branching strategies, in the git flow we can find five different branch types :
+
+### **Main (Master)**
+
+The main branch is created as the start of our project and is maintained throughout the development process.
+
+### **Develop Branch**
+
+Contains pre-production code with newly developed features that are in the process of being tested.
+
+### **Supporting Branches**
+
+When developing with Git flow, there are three types of supporting branches with different intended purposes: feature, release, and hotfix.
+
+### **Feature Branch**
+
+It is used when adding new features to your code.
+When working on a new feature, you will start a feature branch off the develop branch, and then merge your changes back into the develop branch when the feature is completed and properly reviewed.
+
+### **Release Branch**
+
+The release branch should be used when preparing new production releases. Typically, the work being performed on release branches concerns finishing touches and minor bugs specific to releasing new code, with code that should be addressed separately from the main develop branch.
+
+### **Hotfix Branch**
+
+The hotfix branch is used to quickly address necessary changes in your main branch.
+
+## **The Git Flow Diagram**
+
+![Resume](/Images/GitFlow.PNG)
